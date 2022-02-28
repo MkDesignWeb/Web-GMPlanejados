@@ -1,0 +1,41 @@
+@media (max-width: 750px) {
+    header nav {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    header #bnt {
+        display: none;
+    }
+
+    header .menu-mb {
+        display: block;
+        z-index: 999;
+    }
+    
+    header .nav-list {
+        box-shadow: -7px 6px 12px rgba(0, 0, 0, 0.288);
+        background-color: var(--cor1);
+
+        position: fixed;
+        top: 0;
+        right: -100%;
+
+        height: 100vh;
+        width: 100%;
+        max-width: 200px;
+
+        padding: 50px 20px;
+
+        flex-direction: column;
+        transition: 0.5s ease;
+    }
+    
+    header .nav-list li {
+        padding: 20px;
+    }
+
+    header .nav-list.active {
+       right: 0;
+    }
+}

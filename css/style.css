@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    background-image: linear-gradient(to top, #ffffff00 30%, var(--cor1) );
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+
+header .menu-mb{
+    display: none  ;
+}
+
+header .logo {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.384);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+header nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+header .nav-list{
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.384);
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 20px;
+}
+
+.nav-list li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: var(--cor2);
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+}
+
+.nav-list li a:hover::after {
+   width: 100%;
+   transition: width 0.2s linear;
+
+}
+
+header .bnt {
+    display: block;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.384);
+    text-transform: uppercase;
+    background-color: white;
+    padding: 14px 17px ;
+    border-radius: 5px;
+    color: var(--cor2);
+}
+
+body {
+    background-color: var(--cor1);
+}
+
