@@ -2,3 +2,7 @@
     --cor1: #f28705;
     --cor2: #591902;
 }
+
+body {
+    background-color: var(--cor1);
+}

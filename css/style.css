@@ -9,7 +9,7 @@ a {
     color: #fff;
     text-decoration: none;
 }
-
+/* Cabeçalho */
 header {
     background-image: linear-gradient(to top, #ffffff00 30%, var(--cor1) );
     width: 100%;
@@ -50,6 +50,10 @@ header .nav-list{
     margin-left: 20px;
 }
 
+.nav-list li a {
+    padding: 20px 0;
+}
+
 .nav-list li a::after {
     content: '';
     width: 0;
@@ -75,8 +79,6 @@ header .bnt {
     border-radius: 5px;
     color: var(--cor2);
 }
+/* //Cabeçalho */
 
-body {
-    background-color: var(--cor1);
-}
 
