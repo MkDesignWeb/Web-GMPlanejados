@@ -6,6 +6,10 @@
         background-color: #c2700b81;
     }
 
+    header .logo {
+        font-size: 6vw;
+    }
+
     header nav {
         margin: 0 20px;
         justify-content: space-between;
