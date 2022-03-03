@@ -1,7 +1,20 @@
+@font-face {
+    font-family: simplifica;
+    src: url(../FONTS/SIMPLIFICA\ Typeface.ttf);
+}
+
 :root {
     --cor1: #f28705;
     --cor2: #591902;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
 
 body {
     background-color: var(--cor1);
