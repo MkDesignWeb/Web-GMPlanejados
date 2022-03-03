@@ -2,10 +2,15 @@
     font-family: simplifica;
     src: url(../FONTS/SIMPLIFICA\ Typeface.ttf);
 }
+@font-face {
+    font-family: adelaide;
+    src: url(../FONTS/Adelaide-Bold.otf);
+}
 
 :root {
     --cor1: #f28705;
     --cor2: #591902;
+    --cor3: #f1d414;
 }
 
 * {

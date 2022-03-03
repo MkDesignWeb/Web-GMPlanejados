@@ -12,6 +12,7 @@
 
     header nav {
         justify-content: space-around;
+        height: 10vmax;
     }
 
     header #bnt {   
@@ -114,5 +115,12 @@
 
 #seta {
    width: 7vw;
+   margin-bottom: 10%;
 }
+/* //Bloco-1 */
+
+/* Bloco-2 */
+
+
+/* //Bloco-2 */
 }

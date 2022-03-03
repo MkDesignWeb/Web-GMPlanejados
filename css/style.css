@@ -99,7 +99,7 @@ header .bnt {
 
 #bloco-1 .lado-d img {
     width: 100%;
-    height: auto;
+    height: 100%;
 
 }
 
@@ -163,3 +163,71 @@ header .bnt {
 }
 
 /* //textos lado esquerdo */
+
+/* Bloco-2 */
+
+#bloco-2 {
+    background-color: white;
+    height: 100vw;
+    
+}
+
+#bloco-2 h2 {
+    font-family: adelaide;
+    text-transform: uppercase;
+    padding: 8%;
+    font-size: 15vmin;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+   
+}
+
+#bloco-2 img {
+    display: block;
+    width: 70vw;
+    z-index: 3;
+}
+
+#bloco-2 .e-bord {
+    width: 90vw;
+    position: absolute ;
+    left: -10%;
+    z-index: 2;
+}
+
+#bloco-2 .e-bord-2 {
+    position: absolute;
+    align-self: flex-end;
+    margin-top: 15%;
+    width: 49vw;
+    left: 50%;
+    align-items: center;
+    z-index: 1;
+}
+
+#bloco-2 .bnt-cat {
+    margin-top: 3%;
+    position: relative;
+    z-index: 4;
+    text-align: center;
+    justify-items: center;
+}
+
+#bloco-2 .bnt-cat a {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.384);
+    font-family: simplifica;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 4vmin;
+    padding: 2vh 3vh;
+    border-radius: 5px;
+    background-color: var(--cor3);
+    color: var(--cor2);
+}
+
+
