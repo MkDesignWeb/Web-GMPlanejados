@@ -113,10 +113,12 @@ header .bnt {
     justify-content: end;
     width: 100%;
     font-family: simplifica, sans-serif;
+    font-weight: 100;
     text-align: end;
     color: white;
     font-size: 7vw;
     margin-top: 13%;
+    margin-bottom: 13%;
 }
 
 /* conteudo lado esquerdo */
@@ -124,7 +126,6 @@ header .bnt {
 /* textos lado esquerdo */
 
 .redes {
-    margin-top: 25px;
     display: flex;
     align-items: center;
     margin-left: 5vw;
@@ -154,21 +155,14 @@ header .bnt {
     font-weight: 100;
 }
 
-#seta {
-    margin: auto;
-    height: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /* //textos lado esquerdo */
 
 /* Bloco-2 */
+/* Exposiçã-1 */
 
 #bloco-2 {
     background-color: white;
-    height: 100vw;
     
 }
 
@@ -183,6 +177,7 @@ header .bnt {
 .container {
     display: flex;
     align-items: center;
+    margin-bottom: 5%;
    
 }
 
@@ -193,28 +188,41 @@ header .bnt {
 }
 
 #bloco-2 .e-bord {
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.384));
     width: 90vw;
     position: absolute ;
-    left: -10%;
+    left: -1%;
     z-index: 2;
 }
 
 #bloco-2 .e-bord-2 {
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.384));
     position: absolute;
     align-self: flex-end;
-    margin-top: 15%;
+    margin-top: 17%;
     width: 49vw;
-    left: 50%;
+    left: 49%;
     align-items: center;
     z-index: 1;
 }
 
-#bloco-2 .bnt-cat {
-    margin-top: 3%;
-    position: relative;
-    z-index: 4;
+#bloco-2 .text-decor {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
+    font-family: adelaide;
+    color: var(--cor3);
+    position: absolute;
+    left: 82%;
+    align-self: flex-start;
     text-align: center;
-    justify-items: center;
+    font-size: 5vw;
+    line-height: 90%;
+}
+
+#bloco-2 .bnt-cat {
+    position: relative;
+    text-align: center;
+    margin-top: 4vmax;
+    z-index: 4;
 }
 
 #bloco-2 .bnt-cat a {
@@ -224,10 +232,76 @@ header .bnt {
     font-weight: 100;
     letter-spacing: 5px;
     font-size: 4vmin;
-    padding: 2vh 3vh;
+    padding: 4vmin 6vmin;
     border-radius: 5px;
     background-color: var(--cor3);
     color: var(--cor2);
 }
+
+/* //Exposição-1 */
+
+#ex-2 .container {
+    margin-top: 20%;
+    justify-content: flex-end;
+}
+#ex-2 img {
+    display: block;
+    width: 70vw;
+    z-index: 3;
+}
+
+#ex-2 .e-bord {
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.384));
+    width: 90vw;
+    position: absolute ;
+    left: 10%;
+    z-index: 2;
+}
+
+#ex-2 .e-bord-2 {
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.384));
+    position: absolute;
+    margin-top: 17%;
+    width: 49vw;
+    left: 1%;
+    align-items: center;
+    z-index: 1;
+}
+
+#ex-2 .text-decor {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
+    font-family: adelaide;
+    color: var(--cor4);
+    position: absolute;
+    left: 16%;
+    align-self: flex-start;
+    text-align: center;
+    font-size: 5vw;
+    line-height: 90%;
+}
+
+#ex-2 .bnt-cat {
+    position: relative;
+    text-align: center;
+    margin-top: 4vmax;
+    z-index: 4;
+}
+
+#ex-2 .bnt-cat a {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.384);
+    font-family: simplifica;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 4vmin;
+    padding: 4vmin 6vmin;
+    border-radius: 5px;
+    background-color: var(--cor4);
+    color: white;
+}
+
+/* //Bloco-2 */
+
+
 
 

@@ -11,6 +11,7 @@
     --cor1: #f28705;
     --cor2: #591902;
     --cor3: #f1d414;
+    --cor4: #8d7c6c;
 }
 
 * {
@@ -23,4 +24,5 @@
 
 body {
     background-color: var(--cor1);
+    overflow-x: hidden;
 }
