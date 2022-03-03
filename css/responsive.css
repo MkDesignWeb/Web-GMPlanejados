@@ -11,18 +11,18 @@
     }
 
     header nav {
-        margin: 0 20px;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
-    header #bnt {
+    header #bnt {   
         text-align: center;
+        align-items: center;
         position: absolute;
         top: 60px;
         width: 90%;
-        padding: 15px ;
-    border-radius: 5px;
-    color: var(--cor2);
+
+        border-radius: 5px;
+        color: var(--cor2);
     }
 
     header .menu-mb {
@@ -59,4 +59,60 @@
         margin: 0;
     }
 /* //Cabeçalho */
+
+/* Bloco-1 */
+
+#bloco-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#bloco-1 .lado-d {
+    order: 1;
+    width: 100%;
+}
+
+#bloco-1 .lado-e {
+    order: 2;
+    width: 100%;
+    
+}
+
+#bloco-1 .lado-e h2 {
+    display: none;
+}
+
+#bloco-1 .lado-e .txt-r {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 10vw;
+    margin-top: 3%;
+}
+
+.redes {
+    margin-top: 25px;
+}
+
+.redes .i-redes {
+    height: 4vw;
+}
+
+.redes h3 {
+    color: white;
+    font-size: 4vw;
+    
+}
+
+.orcamento-txt {
+    margin-bottom: 5% ;
+    padding-left: 3px;
+    margin-top: 5px;
+    font-size: 7vw;
+}
+
+#seta {
+   width: 7vw;
+}
 }

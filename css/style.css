@@ -80,6 +80,8 @@ header .bnt {
 }
 /* //Cabeçalho */
 
+/* conteudo lado esquerdo */
+
 #bloco-1 {
     width: 100%;
     display: flex;
@@ -101,6 +103,10 @@ header .bnt {
 
 }
 
+#bloco-1 .lado-e .txt-r {
+    display: none;
+}
+
 #bloco-1 .lado-e h2 {
     display: flex;
     align-items: center;
@@ -113,7 +119,9 @@ header .bnt {
     margin-top: 13%;
 }
 
-/* Redes */
+/* conteudo lado esquerdo */
+
+/* textos lado esquerdo */
 
 .redes {
     margin-top: 25px;
@@ -153,3 +161,5 @@ header .bnt {
     justify-content: center;
     align-items: center;
 }
+
+/* //textos lado esquerdo */
