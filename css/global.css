@@ -23,6 +23,21 @@
 
 
 body {
-    background-color: var(--cor1);
+    background-color: #fff;
     overflow-x: hidden;
+}
+
+.h2-principal  {
+    font-family: adelaide;
+    text-transform: uppercase;
+    padding: 8%;
+    font-size: 13vmin;
+    text-align: center;
+}
+
+.p-principal {
+    font-family: adelaide;
+    text-align: center;
+    font-size: 6vmin;
+    font-weight: 900;
 }

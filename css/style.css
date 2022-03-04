@@ -90,11 +90,13 @@ header .bnt {
 #bloco-1 .lado-d {
     width: 50%;
     display: inline-block;
+    background-color: var(--cor1);
 }
 
 #bloco-1 .lado-e {
     width: 50%;
     display: inline-block;
+    background-color: var(--cor1);
 }
 
 #bloco-1 .lado-d img {
@@ -166,14 +168,6 @@ header .bnt {
     
 }
 
-#bloco-2 h2 {
-    font-family: adelaide;
-    text-transform: uppercase;
-    padding: 8%;
-    font-size: 15vmin;
-    text-align: center;
-}
-
 .container {
     display: flex;
     align-items: center;
@@ -239,9 +233,10 @@ header .bnt {
 }
 
 /* //Exposição-1 */
+/* Exposição-2 */
 
 #ex-2 .container {
-    margin-top: 20%;
+    margin-top: 25%;
     justify-content: flex-end;
 }
 #ex-2 img {
@@ -300,7 +295,59 @@ header .bnt {
     color: white;
 }
 
+/* //Exposição-2 */
 /* //Bloco-2 */
+
+/* Bloco-3 */
+
+#bloco-3 {
+    background-color: #fff;
+    height: 100vh;
+    margin-top: 10%;
+}
+
+#bloco-3 .h2-principal {
+    padding-bottom: 0;
+}
+
+/* //Bloco-2 */
+
+/* Roda pé */
+
+#roda-pe {
+    background-color: #292929;
+    padding: 0 10%;
+}
+
+#roda-pe footer {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#roda-pe .b-1 div {
+    align-items: flex-start;
+    display: flex;
+}
+
+#roda-pe .b-2 div {
+    align-items: flex-start;
+    display: flex;
+}
+
+#roda-pe .txt-title {
+    font-family: simplifica;
+    color: white;
+    font-size: 6vmin;
+}
+
+#roda-pe .icon-rp {
+    margin: 0 2%;
+    width: 6vmin;
+}
+
+
+/* //Roda pé */
 
 
 
