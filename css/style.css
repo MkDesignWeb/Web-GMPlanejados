@@ -17,6 +17,7 @@ header .menu-mb{
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.384));
     display: none  ;
     padding: 7px;
+    
 }
 
 header .logo {
@@ -325,16 +326,10 @@ header .bnt {
     justify-content: space-between;
 }
 
-#roda-pe .b-1 div {
-    align-items: flex-start;
+#roda-pe .b-3 div, .b-2 div, .b-1 div {
+    align-items: center;
     display: flex;
 }
-
-#roda-pe .b-2 div {
-    align-items: flex-start;
-    display: flex;
-}
-
 #roda-pe .txt-title {
     font-family: simplifica;
     color: white;

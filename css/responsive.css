@@ -1,9 +1,9 @@
 @media (max-width: 750px) {
 /* Cabeçalho */
     .menu-mb:hover {
-        transition: 0.5s ease;
+        transition: 0.2s ease;
         border-radius: 5px;
-        background-color: #c2700b81;
+        background-color: #ffffff6c ;
     }
 
     header .logo {
@@ -130,7 +130,7 @@
 /* Roda pé */
 
 #roda-pe footer {
-    display: flex;
+    display: block;
     justify-content: space-between;
 }
 
