@@ -6,6 +6,10 @@
         background-color: #ffffff6c ;
     }
 
+    header.sticky {
+        padding: 0;
+    }
+
     header .logo {
         font-size: 6vw;
     }

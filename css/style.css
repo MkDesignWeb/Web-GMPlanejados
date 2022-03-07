@@ -5,11 +5,17 @@ a {
 }
 /* Cabeçalho */
 header {
-    background-image: linear-gradient(to top, #ffffff00 30%, var(--cor1) );
+    transition: 0.4s;
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 999;
+}
+
+header.sticky {
+    background-color: var(--cor1);
+    padding: 5px 0;
+    box-shadow: 5px 0px 10px black;
 }
 
 
@@ -303,15 +309,61 @@ header .bnt {
 
 #bloco-3 {
     background-color: #fff;
-    height: 100vh;
+    height: 100%;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 #bloco-3 .h2-principal {
     padding-bottom: 0;
 }
 
-/* //Bloco-2 */
+.container-galeria {
+    margin: 3% 3%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.b-foto {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 3px 15px #3810019c;
+    padding: 15px 15px 40px;
+    transition: 0.4s;
+}
+
+.b-foto:hover {
+    transform:scale(1.03) ;
+    background-color: var(--cor1);
+}
+
+.foto {
+    border-radius: 5px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+
+}
+
+.caption h2 {
+    font-family: simplifica;
+    font-weight: 900;
+    color: var(--cor2);
+    font-size: 2em;
+}
+
+.caption p {
+    font-family: simplifica;
+    font-weight: 900;
+    color: var(--cor2);
+}
+
+.b-foto:hover h2 {
+    color: white;
+}
+/* //Bloco-3 */
 
 /* Roda pé */
 
