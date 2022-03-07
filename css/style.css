@@ -318,6 +318,82 @@ header .bnt {
     padding-bottom: 0;
 }
 
+.bnt-close {
+    align-items: flex-start;
+    padding: 0 1%;
+}
+
+
+
+.modal {
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #000000b6;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s linear, 0.3s linear;
+}
+
+.modal-active {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.bnt-close img {
+    cursor: pointer;
+    width: 25px;
+}
+
+.pop-up {
+    border-radius: 10px;
+    background-color: white;
+    width: auto;
+    margin: 0 5%;
+    height: 90%;
+    display: flex;
+    padding: 2%;
+    justify-content: space-around;
+}
+
+.img-modal {
+    position: relative;
+    text-align: stretch;
+    max-width: 90%;
+    border-radius: 5px;
+    object-fit: scale-down;
+    background-color: rgb(223, 223, 223);
+}
+
+.b-titulo {
+    font-size: 2em;
+    padding-left: 2%;
+    padding-right: 15%;
+}
+
+.b-titulo h2{
+    font-family: simplifica;
+    font-weight: 900;
+    color: var(--cor2);
+}
+
+.b-titulo p {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 3vmin;
+    color: var(--cor2);
+}
+
+.container-modal {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container-galeria {
     margin: 3% 3%;
     justify-content: center;
@@ -384,13 +460,15 @@ header .bnt {
 }
 #roda-pe .txt-title {
     font-family: simplifica;
+    font-weight: 100;
     color: white;
-    font-size: 6vmin;
+    font-size: 3vmax;
+    white-space: nowrap;
 }
 
 #roda-pe .icon-rp {
     margin: 0 2%;
-    width: 6vmin;
+    width: 3vmax;
 }
 
 
