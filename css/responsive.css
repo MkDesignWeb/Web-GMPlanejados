@@ -160,6 +160,11 @@
     width: 5vmin;
 }
 
+.container-galeria {
+    margin: 3% 7%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
 
 /* //Roda pé */
 

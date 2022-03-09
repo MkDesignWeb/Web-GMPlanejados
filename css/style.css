@@ -336,8 +336,9 @@ header .bnt {
 }
 
 .bnt-close {
+    align-items: flex-end;
     align-items: flex-start;
-    padding: 0 1%;
+    padding-left: 1%;
 }
 
 .bnt-close img {
@@ -385,6 +386,7 @@ header .bnt {
 }
 
 .container-modal {
+    width: auto;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -428,9 +430,10 @@ header .bnt {
 }
 
 .caption p {
+    font-size: 1.2em;
     font-family: simplifica;
     font-weight: 900;
-    color: var(--cor2);
+    color: black;
 }
 
 .b-foto:hover h2 {
