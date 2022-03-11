@@ -277,24 +277,24 @@ header .bnt {
 }
 #ex-2 img {
     display: block;
-    width: 70vw;
+    width: 50vw;
     z-index: 3;
 }
 
 #ex-2 .e-bord {
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.384));
-    width: 90vw;
+    width: 70vw;
     position: absolute ;
-    left: 10%;
+    left: 30%;
     z-index: 2;
 }
 
 #ex-2 .e-bord-2 {
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.384));
     position: absolute;
-    margin-top: 17%;
-    width: 49vw;
-    left: 1%;
+    margin-top: 16%;
+    width: 39vw;
+    left: 13%;
     align-items: center;
     z-index: 1;
 }
@@ -304,10 +304,10 @@ header .bnt {
     font-family: adelaide;
     color: var(--cor4);
     position: absolute;
-    left: 16%;
+    left: 26%;
     align-self: flex-start;
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 90%;
 }
 

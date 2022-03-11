@@ -144,10 +144,32 @@
 }
 
 #bloco-2 .text-decor {
-    left: 87%;
+    left: 83%;
     font-size: 5vw;
     line-height: 90%;
 }
+/* exposição 2 */
+
+#ex-2 img {
+    width: 70vw;
+}
+
+#ex-2 .e-bord {
+    width: 90vw;
+    left: 10%;
+}
+
+#ex-2 .e-bord-2 {
+    width: 49vw;
+    left: 1%;
+}
+
+#ex-2 .text-decor {
+    left: 16%;
+    font-size: 5vw;
+    line-height: 90%;
+}
+
 
 /* //Bloco-2 */
 
