@@ -435,10 +435,12 @@ header .bnt {
     border-radius: 10px;
     box-shadow: 5px 3px 15px #3810019c;
     padding: 15px 15px 40px;
+    transition: 0.3s;
 
 }
 
 .b-foto:hover {
+    transform: scale(1.05);
     background-color: var(--cor1);
 }
 
