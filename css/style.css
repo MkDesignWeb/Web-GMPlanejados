@@ -95,6 +95,7 @@ header .bnt {
 }
 
 #bloco-1 .lado-d {
+    position: relative;
     width: 50%;
     display: inline-block;
     background-color: var(--cor1);
@@ -110,6 +111,34 @@ header .bnt {
     width: 100%;
     height: 100%;
 
+}
+
+.container-bnt {
+    visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    padding-bottom: 23px;
+}
+
+.bnt-projeto {
+    position: relative;
+    color: var(--cor2);
+    border-radius: 5px;
+    background-color: white;
+    font-family: simplifica;
+    padding: 5px 20px;
+    font-size: 1.3em;
+    font-weight: 100;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.473);
+}
+
+.bnt-projeto:hover {
+    background-color: var(--cor1);
+    color: white;
 }
 
 #bloco-1 .lado-e .txt-r {
@@ -406,11 +435,9 @@ header .bnt {
     border-radius: 10px;
     box-shadow: 5px 3px 15px #3810019c;
     padding: 15px 15px 40px;
-    transition: 0.4s;
 }
 
 .b-foto:hover {
-    transform:scale(1.03) ;
     background-color: var(--cor1);
 }
 
