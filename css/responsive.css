@@ -129,6 +129,26 @@
     font-family: simplifica;
     font-weight: 900;
 }
+
+#bloco-2 img {
+    width: 70vw;
+}
+
+#bloco-2 .e-bord {
+    width: 90vw;
+}
+
+#bloco-2 .e-bord-2 {
+    width: 49vw;
+    left: 49%;
+}
+
+#bloco-2 .text-decor {
+    left: 87%;
+    font-size: 5vw;
+    line-height: 90%;
+}
+
 /* //Bloco-2 */
 
 /* Roda pé */

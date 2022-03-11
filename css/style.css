@@ -213,13 +213,13 @@ header .bnt {
 
 #bloco-2 img {
     display: block;
-    width: 70vw;
+    width: 50vw;
     z-index: 3;
 }
 
 #bloco-2 .e-bord {
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.384));
-    width: 90vw;
+    width: 70vw;
     position: absolute ;
     left: -1%;
     z-index: 2;
@@ -230,8 +230,8 @@ header .bnt {
     position: absolute;
     align-self: flex-end;
     margin-top: 17%;
-    width: 49vw;
-    left: 49%;
+    width: 39vw;
+    left: 47%;
     align-items: center;
     z-index: 1;
 }
@@ -241,10 +241,10 @@ header .bnt {
     font-family: adelaide;
     color: var(--cor3);
     position: absolute;
-    left: 82%;
+    left: 72%;
     align-self: flex-start;
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 90%;
 }
 
@@ -435,6 +435,7 @@ header .bnt {
     border-radius: 10px;
     box-shadow: 5px 3px 15px #3810019c;
     padding: 15px 15px 40px;
+
 }
 
 .b-foto:hover {
