@@ -370,6 +370,10 @@ header .bnt {
     padding-left: 1%;
 }
 
+.bnt-close img:hover {
+    filter: brightness(6);
+}
+
 .bnt-close img {
     cursor: pointer;
     width: 25px;
