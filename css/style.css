@@ -14,7 +14,7 @@ header {
 
 header.sticky {
     background-color: var(--cor1);
-    padding: 5px 0;
+    padding: 6px 0;
     box-shadow: 5px 0px 10px black;
 }
 
@@ -36,6 +36,7 @@ header .logo {
 }
 
 header nav {
+    padding: 5px 0;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -457,6 +458,7 @@ header .bnt {
 }
 
 .caption h2 {
+    position: relative;
     font-family: simplifica;
     font-weight: 900;
     color: var(--cor2);
@@ -471,6 +473,20 @@ header .bnt {
 }
 
 .b-foto:hover h2 {
+    color: white;
+}
+
+.b-foto.new > .caption > h2::after{
+    content: 'Novo';
+    position: absolute;
+    right: 0;
+    color: var(--cor1);
+}
+
+.b-foto.new:hover > .caption > h2::after {
+    content: 'Novo';
+    position: absolute;
+    right: 0;
     color: white;
 }
 /* //Bloco-3 */
