@@ -1,4 +1,4 @@
-@media (max-width: 750px) {
+@media (max-width: 800px) {
 /* Cabeçalho */
     .menu-mb:hover {
         transition: 0.2s ease;
@@ -6,26 +6,12 @@
         background-color: #ffffff6c ;
     }
 
-    header.sticky {
-        padding: 0;
-    }
-
-    header .logo {
-        font-size: 6vw;
-    }
-
-    header nav {
-        justify-content: space-around;
-        height: 10vmax;
-    }
-
     header #bnt {   
         text-align: center;
         align-items: center;
         position: absolute;
-        top: 60px;
+        top: 70px;
         width: 90%;
-
         border-radius: 5px;
         color: var(--cor2);
     }
